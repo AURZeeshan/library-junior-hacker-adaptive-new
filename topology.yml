@@ -9,14 +9,14 @@ hosts:
 
   - name: web-server
     base_box:
-      image: ubuntu-22.04
+      image: ubuntu-noble-x86_64
       man_user: ubuntu
     flavor: standard.small
 
   - name: db-server
     base_box:
-      image: ubuntu-22.04
-      man_user: ubuntu
+      image: debian-12-x86_64
+      man_user: debian
     flavor: standard.small
     hidden: True
 
